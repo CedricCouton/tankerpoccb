@@ -5,7 +5,7 @@ authors = ["Cédric Couton <cedric.couton@doctolib.com>"]
 edition = "2018"
 
 [dependencies]
-tankersdk = { version = "2.15.0", registry = "tanker" }
+tankersdk = { version = "2.16.2", registry = "tanker" }
 tokio = { version = "0.2", features = ["macros", "rt-threaded"] }
 couchbase-lite = "0.4.2"
 lazy_static = "1.4"
