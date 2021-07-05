@@ -7,11 +7,11 @@ edition = "2018"
 [dependencies]
 tankersdk = { version = "2.16.2", registry = "tanker" }
 tokio = { version = "0.2", features = ["macros", "rt-threaded"] }
-couchbase-lite = "0.4.2"
+#couchbase-lite = "0.4.2"
 lazy_static = "1.4"
 
 [patch.crates-io]
-couchbase-lite = { git = "https://github.com/CedricCouton/couchbase-lite-rust", rev = "1f00fb21749ddc8eea0045f858600928058cf7d7" }
-couchbase-lite-core-sys = { git = "https://github.com/CedricCouton/couchbase-lite-rust", rev = "1f00fb21749ddc8eea0045f858600928058cf7d7" }
+#couchbase-lite = { git = "https://github.com/CedricCouton/couchbase-lite-rust", rev = "1f00fb21749ddc8eea0045f858600928058cf7d7" }
+#couchbase-lite-core-sys = { git = "https://github.com/CedricCouton/couchbase-lite-rust", rev = "1f00fb21749ddc8eea0045f858600928058cf7d7" }
 http = { git = "https://github.com/Dushistov/http", rev = "3ad3b825edc3a0d9048a6af5ab524f2fc51bde30" }
 cmake = { git = "https://github.com/Dushistov/cmake-rs", rev = "125fe65e123f9bd4ceaf91924b0a381d473f2d97" }
