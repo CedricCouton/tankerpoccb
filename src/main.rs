@@ -1,7 +1,7 @@
 use tankersdk::{Options, Core};
 
 fn main() {
-    let _ = couchbase_lite::Database::open(&std::path::Path::new("."), couchbase_lite::DatabaseConfig::default());
+    //let _ = couchbase_lite::Database::open(&std::path::Path::new("."), couchbase_lite::DatabaseConfig::default());
 
     if let Ok(mut runtime) = tokio::runtime::Runtime::new() {
         runtime.block_on(async move {
